@@ -3,6 +3,9 @@ package ana.maze;
 import java.io.File;
 import java.util.Scanner;
 
+/*
+ * This class imports the maze from a text file
+ */
 class ImportMaze {
 	private char[][] maze;
 	
@@ -33,6 +36,7 @@ class ImportMaze {
 	char[][] getMaze() {
 		return maze;
 	}
+	//create the maze on terminal
 	void printMaze() {
 		System.out.print("   ");
 		for (int i = 0; i < 20; i++) {
